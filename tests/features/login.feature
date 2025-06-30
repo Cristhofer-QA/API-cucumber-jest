@@ -6,7 +6,7 @@ Feature: Login API
     Then recebo um token de autenticação
 
   Scenario: Login sem senha
-    Given que eu tenha apenas o e-mail de um usuário
+    Given que eu tenho apenas o e-mail de um usuário
     When faço uma requisição de login apenas com e-mail
     Then deve retornar o status 400
     And não deve retornar o token de acesso

@@ -41,7 +41,7 @@ defineFeature(feature, (test) => {
 
         let send, response;
 
-        given("que eu tenha apenas o e-mail de um usuário", () => {
+        given("que eu tenho apenas o e-mail de um usuário", () => {
             const email = login_incorrect_password.email;
             const password = login_incorrect_password.password;
             send = send_login(email, password);
